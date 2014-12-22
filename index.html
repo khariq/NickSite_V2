@@ -2,7 +2,7 @@
 <html ng-app="site">
 
 	<head>
-
+		<title>Red Key Photography</title>
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -15,7 +15,7 @@
 		<style rel="text/css">
 			.carousel-inner > .item > img {
     			margin: 0 auto;
-    			height: 600px;
+    			height: 85vh;
 			}
 
 			.navbar-default {
@@ -65,7 +65,6 @@
 
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
-					
 					<div ng-class="{active: $index === 0}" class="item" ng-repeat="slide in slides">
 						<img ng-src="{{slide.url}}" alt="{{slide.title}}">
 						<div class="carousel-caption">
