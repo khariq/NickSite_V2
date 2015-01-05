@@ -1,4 +1,23 @@
 {
+    "defaultSlides" :  [
+
+        {
+				"url" : "img/People/Food-19.jpg",
+				"title" : "",
+				"caption" : ""
+			},
+			{
+				"url" : "img/Commercial/Commercial-4.jpg",
+				"title" : "",
+				"caption" : ""
+			},
+			{
+				"url" : "img/Places/Places-12.jpg",
+				"title" : "",
+				"caption" : ""
+			}
+
+    ],
 	"photos" : [
 		{
 		"category" : "Commercial", 

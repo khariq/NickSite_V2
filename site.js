@@ -64,7 +64,25 @@ var mainController = app.controller('mainController', function($scope, $location
 			},
 			function(response) {}
 		);
+		
+	var defaultSlides = [
+		{
+			"url": "img/Places/Places-12.jpg",
+			"title": "",
+			"caption": ""
+		},
+        {
+        	"url": "img/People/Food-19.jpg",
+        	"title": "",
+        	"caption": ""
+        },
+		{
+			"url": "img/Commercial/Commercial-4.jpg",
+			"title": "",
+			"caption": ""
+		}
+	];
 
-	$scope.slides = [];
-	
+	$scope.slides = defaultSlides;
+
 });
